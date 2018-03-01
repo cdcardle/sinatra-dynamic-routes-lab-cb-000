@@ -34,6 +34,7 @@ class App < Sinatra::Base
       @num1 * @num
     when "divide"
       @num1 / @num
+    end
   end
 
 end
