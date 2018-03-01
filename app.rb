@@ -18,4 +18,8 @@ class App < Sinatra::Base
     "#{@phrase}\n" * @num.to_i
   end
 
+  get '/say/:word1/:word2/:word3/:word4/:word5' do
+    params
+  end
+
 end
